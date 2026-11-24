@@ -11,6 +11,8 @@ services:
         value: '*'
       - key: DATA_DIR
         value: /tmp/bridge-data
+      - key: ADMIN_TOKEN
+        generateValue: true
       - key: LOBBYLINK_URL
         fromService:
           type: web
