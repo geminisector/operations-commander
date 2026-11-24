@@ -1,4 +1,4 @@
-"""BRIDGE COMMANDER shared package.
+"""OPERATIONS COMMANDER shared package.
 
 Re-exports the whole shared surface (mirrors ``packages/shared/src/index.ts``)
 plus the small helpers that ``index.ts`` adds on top.
@@ -56,7 +56,7 @@ def digest_text(d: LogbookDigest) -> str:
     h = int(d.durationMinutes // 60)
     m = int(d.durationMinutes % 60)
     lines = [
-        f"**BRIDGE COMMANDER — after-action log · {d.title}**",
+        f"**OPERATIONS COMMANDER — after-action log · {d.title}**",
         f"Theater: {d.theater} · Duration: {h}h {m}m",
         "",
         f"Contacts seen: {d.contactsSeen} · Classified: {d.classifiedCount} · Confirmed hostiles: {d.hostileConfirmed}",

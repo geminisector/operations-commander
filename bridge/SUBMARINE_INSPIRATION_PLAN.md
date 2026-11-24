@@ -1,8 +1,8 @@
-# Submarine-Warfare Inspiration for Bridge Commander
+# Submarine-Warfare Inspiration for Operations Commander
 
 ## Why submarines are the right reference
 
-Bridge Commander is already a submarine watch in space clothing: silent running,
+Operations Commander is already a submarine watch in space clothing: silent running,
 EMCON, hydrophone-as-passive-array, active ping as a career-ending risk,
 bearing history as TMA, noisemakers as decoys, thermal layers as hazards. The
 submarine genre has spent forty years solving exactly the problems this bridge

@@ -1,4 +1,4 @@
-# Bridge Commander — watch manual
+# Operations Commander — watch manual
 
 A short field guide to a six-hour watch. You are the bridge crew of a ship
 hunting (and being hunted) through a star system. Nothing is scripted; the

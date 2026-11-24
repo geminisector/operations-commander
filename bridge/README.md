@@ -1,4 +1,4 @@
-# BRIDGE COMMANDER (Python)
+# OPERATIONS COMMANDER (Python)
 
 Standalone Python implementation of the fleet bridge simulator. The browser
 activity and GM console are bundled with the server and use the camelCase

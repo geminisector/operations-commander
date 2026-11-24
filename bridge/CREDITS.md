@@ -1,6 +1,6 @@
-# Bridge Commander — credits and licensing
+# Operations Commander — credits and licensing
 
-Bridge Commander is an **unofficial, non-commercial project**. It is a free,
+Operations Commander is an **unofficial, non-commercial project**. It is a free,
 tabletop-assisted bridge simulator; it is not affiliated with, endorsed by, or
 licensed by any rights holder.
 
@@ -31,7 +31,7 @@ rulebook's setting terms.
 
 WCRPG is itself a game set in the *Wing Commander* universe, which is the
 property of its respective rights holders (Electronic Arts and/or Origin
-Systems). Bridge Commander claims no rights to that material and ships no
+Systems). Operations Commander claims no rights to that material and ships no
 *Wing Commander* game artwork.
 
 Attribution: *WCRPG — The Wing Commander Role Playing Game*, used under
@@ -51,7 +51,7 @@ credit only; no setting content is taken from it.
 
 - Hull statistics are project data derived from the bridge ship catalogue.
 - Environment, drive, module, event, hazard, hull and nav-point catalogues under
-  `resources/` are original project data authored for Bridge Commander.
+  `resources/` are original project data authored for Operations Commander.
 - The 128x128 images under `img/` are generated placeholders. Regenerate them
   with `tools/generate_placeholder_art.py`.
 

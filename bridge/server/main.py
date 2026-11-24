@@ -1,4 +1,4 @@
-"""BRIDGE COMMANDER server entry point.
+"""OPERATIONS COMMANDER server entry point.
 
 Direct port of ``apps/server/src/index.ts``.  Run with::
 
@@ -108,11 +108,11 @@ def _report_flavors() -> None:
             print(f"[bridge] {resolved.id}: {finding}")
 
 
-app = FastAPI(title="BRIDGE COMMANDER", lifespan=lifespan)
+app = FastAPI(title="OPERATIONS COMMANDER", lifespan=lifespan)
 
 _NOT_FOUND_HTML = """<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Bridge Commander — Lost in space</title>
+<title>Operations Commander — Lost in space</title>
 <style>
   :root { color-scheme: dark; }
   body { margin:0; min-height:100vh; display:grid; place-items:center; background:#071018;
@@ -281,7 +281,7 @@ async def flavored_index(request: Request) -> Response:
     dist = _activity_dist()
     if dist is None:
         return HTMLResponse(
-            "<h1>BRIDGE COMMANDER</h1><p>Activity bundle not found; "
+            "<h1>OPERATIONS COMMANDER</h1><p>Activity bundle not found; "
             "set ACTIVITY_DIST to serve the UI.</p>",
             status_code=200,
         )
@@ -383,7 +383,7 @@ def main() -> None:
     package without booting the game.
     """
     parser = argparse.ArgumentParser(
-        prog="bridge", description="BRIDGE COMMANDER server"
+        prog="bridge", description="OPERATIONS COMMANDER server"
     )
     parser.add_argument(
         "--flavor",

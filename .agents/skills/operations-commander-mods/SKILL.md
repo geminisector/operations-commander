@@ -1,10 +1,10 @@
 ---
-name: bridge-commander-mods
-description: "A guided, interview-driven workflow for creating a new bridge-commander mod (flavor) from scratch. Asks the author what universe/setting it is, how distances and speeds read, what each ship is called and who flies it, where the images come from, the colour theme, callsigns and missions, then generates, validates and activates the data package. Triggers on: create a mod, make a mod, new mod, add a mod, create a flavor, new setting, new universe, reskin, ship roster, what ships, ship art, where do I get images, design a campaign setting."
-whenToUse: "Use when the user wants to invent or scaffold a new setting/mod for bridge-commander and needs to be walked through the decisions. For editing an existing flavor, the format reference still applies but the interview can be skipped."
+name: operations-commander-mods
+description: "A guided, interview-driven workflow for creating a new operations-commander mod (flavor) from scratch. Asks the author what universe/setting it is, how distances and speeds read, what each ship is called and who flies it, where the images come from, the colour theme, callsigns and missions, then generates, validates and activates the data package. Triggers on: create a mod, make a mod, new mod, add a mod, create a flavor, new setting, new universe, reskin, ship roster, what ships, ship art, where do I get images, design a campaign setting."
+whenToUse: "Use when the user wants to invent or scaffold a new setting/mod for operations-commander and needs to be walked through the decisions. For editing an existing flavor, the format reference still applies but the interview can be skipped."
 ---
 
-# Creating a new mod for bridge-commander
+# Creating a new mod for operations-commander
 
 You are the author's collaborator. Turn a setting idea into a validated, playable
 flavor by **interviewing first, generating second**. Never dump a wall of

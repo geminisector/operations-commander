@@ -20,7 +20,7 @@ where the fun is assembling evidence, weighing a tradeoff, and committing to a
 bet whose quality you can defend but not guarantee. Agency comes from
 *reasoning*: the player made a good call with what they had.
 
-Bridge Commander must stay almost entirely in the second category. A
+Operations Commander must stay almost entirely in the second category. A
 judgment minigame is not a lesser reflex minigame — it is a different genre of
 fun, and it is the one this game is built to support.
 

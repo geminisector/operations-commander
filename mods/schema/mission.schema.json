@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://bridge-commander.local/flavors/schema/mission.schema.json",
+  "$id": "https://operations-commander.local/flavors/schema/mission.schema.json",
   "title": "Flavor mission (missions/*.json)",
   "description": "A CampaignSeed-shaped document. The loader is CampaignSeed.model_validate(mission); every distance is canonical klik and no flavor may introduce randomness. Every shipClass must be a hull id in the merged catalog.",
   "type": "object",

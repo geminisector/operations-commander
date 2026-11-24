@@ -3,7 +3,7 @@
 ## What this is
 
 A plan for importing mechanics from **The Wing Commander Role-Playing Game**
-(WCRPG, the 2013 d% rulebook by Stephen A. Rogers) into the Bridge Commander
+(WCRPG, the 2013 d% rulebook by Stephen A. Rogers) into the Operations Commander
 tactical watch in `bridge/`.
 
 Source examined: `the_wing_commander_role_playing_game.pdf`, 1118 pages. Its

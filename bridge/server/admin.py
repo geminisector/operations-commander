@@ -1,4 +1,4 @@
-"""BRIDGE COMMANDER game-master / opposition-builder admin app.
+"""OPERATIONS COMMANDER game-master / opposition-builder admin app.
 
 Direct port of ``apps/server/src/admin.ts``: a second FastAPI app (served on
 ``ADMIN_PORT``) with a token-gated websocket the admin UI connects to at the
@@ -51,9 +51,9 @@ from .rooms import rooms
 _ADMIN_UI_DIR = Path(__file__).resolve().parent / "admin-ui"
 
 _PLACEHOLDER_HTML = """<!doctype html>
-<html><head><meta charset="utf-8"><title>BRIDGE COMMANDER admin</title></head>
+<html><head><meta charset="utf-8"><title>OPERATIONS COMMANDER admin</title></head>
 <body style="font-family:system-ui;background:#0b0f14;color:#c8d6e5;padding:2rem">
-<h1>BRIDGE COMMANDER — game master console</h1>
+<h1>OPERATIONS COMMANDER — game master console</h1>
 <p>The admin UI bundle (<code>admin-ui/index.html</code>) was not found next to
 the Python server. The admin websocket is live on this origin at
 <code>/</code>.</p>
@@ -75,7 +75,7 @@ def _now_iso() -> str:
 def create_admin_app(token: str) -> FastAPI:
     if not token.strip():
         raise ValueError("ADMIN_TOKEN must not be empty")
-    app = FastAPI(title="BRIDGE COMMANDER admin")
+    app = FastAPI(title="OPERATIONS COMMANDER admin")
 
     allowed = ADMIN_ORIGINS
     app.add_middleware(

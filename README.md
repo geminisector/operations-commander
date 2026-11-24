@@ -1,4 +1,4 @@
-# BRIDGE COMMANDER
+# OPERATIONS COMMANDER
 
 **Five players. One ship. Nobody wins alone.**
 
@@ -127,17 +127,17 @@ The activity and GM console are plain static JavaScript bundles. Edit their file
 
 ## Render deployment
 
-`render.yaml` defines Bridge Commander and a companion LobbyLink matchmaking /
+`render.yaml` defines Operations Commander and a companion LobbyLink matchmaking /
 signaling service. Create a Render Blueprint from this repository and deploy
 both services together. Use the LobbyLink service's Render URL as the
 LobbyLink server; its WebSocket endpoint is `/ws`.
 
-The Blueprint allowlists the Bridge Commander origin for LobbyLink connections
+The Blueprint allowlists the Operations Commander origin for LobbyLink connections
 and enables Render's forwarded HTTPS headers. LobbyLink rooms are in memory,
 so this service is intended for short-lived matchmaking rather than durable
 game state.
 
 When `LOBBYLINK_URL` is set, the activity uses its `channelId` as the LobbyLink
 room code. Players are matched in that room first, then join the same
-authoritative Bridge Commander game room. If the variable is empty, local and
+authoritative Operations Commander game room. If the variable is empty, local and
 non-Render deployments continue to use the direct game-room flow.

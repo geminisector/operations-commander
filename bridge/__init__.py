@@ -1,4 +1,4 @@
-"""BRIDGE COMMANDER — Python bridge simulator.
+"""OPERATIONS COMMANDER — Python bridge simulator.
 
 See ``fleet-commander/MIGRATION.md`` for the port plan.
 """

@@ -1,14 +1,14 @@
 #!/usr/bin/env bash
 #
-# Launch BRIDGE COMMANDER from this checkout.
+# Launch OPERATIONS COMMANDER from this checkout.
 #
-#   ./bridge_commander.sh                     # player UI :8787, GM console :8788
-#   ./bridge_commander.sh --flavor wc         # new rooms start on the wc setting
-#   ./bridge_commander.sh --list-flavors      # print installed settings and exit
-#   ./bridge_commander.sh --check-flavor wc   # validate one setting and exit
+#   ./operations_commander.sh                     # player UI :8787, GM console :8788
+#   ./operations_commander.sh --flavor wc         # new rooms start on the wc setting
+#   ./operations_commander.sh --list-flavors      # print installed settings and exit
+#   ./operations_commander.sh --check-flavor wc   # validate one setting and exit
 #
 # Everything below is a default: export the variable before running to override
-# it (e.g. PORT=9000 ./bridge_commander.sh).
+# it (e.g. PORT=9000 ./operations_commander.sh).
 set -euo pipefail
 
 SCRIPT_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"

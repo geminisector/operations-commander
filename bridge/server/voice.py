@@ -20,7 +20,7 @@ from __future__ import annotations
 import uuid
 
 #: Fixed namespace, so a derived id is stable across restarts and deployments.
-NAMESPACE = uuid.uuid5(uuid.NAMESPACE_URL, "bridge-commander/voice")
+NAMESPACE = uuid.uuid5(uuid.NAMESPACE_URL, "operations-commander/voice")
 
 
 def voice_room(channel_id: str, instance_id: str, campaign_id: str) -> str:

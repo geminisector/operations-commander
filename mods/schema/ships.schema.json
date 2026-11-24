@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://bridge-commander.local/flavors/schema/ships.schema.json",
+  "$id": "https://operations-commander.local/flavors/schema/ships.schema.json",
   "title": "Flavor ships (ships.json)",
   "description": "Hulls, art and the contact-type -> hull default map, in one file. Merge is per hull id and per field, so a flavor that extends core may override just a name, a stat or an art file. A hull with no art of its own resolves through the flavor chain to core art.",
   "type": "object",

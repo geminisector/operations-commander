@@ -21,7 +21,7 @@
     $('status').textContent='MATCHMAKING';
     try {
       const {P2PGame}=await import('/p2p-client.js');
-      lobby=await P2PGame.connect({server:lobbyServer,code:channelId,create:{maxPlayers:4,waitUntilFull:false},storageKey:`bridge-commander-${channelId}`,storage:'session'});
+      lobby=await P2PGame.connect({server:lobbyServer,code:channelId,create:{maxPlayers:4,waitUntilFull:false},storageKey:`operations-commander-${channelId}`,storage:'session'});
       lobbyReady=true;
       lobby.onEvent(ev=>{ if(ev.type==='player-joined'||ev.type==='player-left'||ev.type==='player-rejoined') renderLobbyStatus(); });
       renderLobbyStatus(); connectGame();

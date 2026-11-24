@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://bridge-commander.local/flavors/schema/flavor.schema.json",
+  "$id": "https://operations-commander.local/flavors/schema/flavor.schema.json",
   "title": "Flavor manifest (flavor.json)",
   "description": "An optional manifest for a setting (mod): a directory under bridge/flavors/<id>/. The directory name is the flavor id, and the conventional files (units.json, theme.css, ships.json, callsigns.json, missions/) are found automatically, so a manifest only needs the keys it wants to change. A flavor is standalone unless it names a parent with extends. A missing flavor.json is fine when the folder carries conventional data files.",
   "type": "object",

@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://bridge-commander.local/flavors/schema/callsigns.schema.json",
+  "$id": "https://operations-commander.local/flavors/schema/callsigns.schema.json",
   "title": "Flavor callsigns (callsigns.json)",
   "description": "Name pools for generated contacts. Lists replace the inherited list wholesale; the hostile pools merge per role.",
   "type": "object",

@@ -148,7 +148,7 @@ jobs:
       - name: Upload distributions
         uses: actions/upload-artifact@v4
         with:
-          name: bridge-commander-distributions
+          name: operations-commander-distributions
           path: |
             dist/*.whl
             dist/*.tar.gz

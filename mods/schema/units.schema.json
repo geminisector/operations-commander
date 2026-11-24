@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://bridge-commander.local/flavors/schema/units.schema.json",
+  "$id": "https://operations-commander.local/flavors/schema/units.schema.json",
   "title": "Flavor units (units.json)",
   "description": "Display formatting only. Distances and speeds stay canonical (klik, kps) on the wire; a flavor converts when showing a value to a human.",
   "type": "object",
